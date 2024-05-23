@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D dílna</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="oie_jpg.png" alt="3D dílna Logo" class="logo" />
+      <h1>3D dílna</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="about.html">o nás</a></li>
+          <li><a href="products.html">Produkty</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1 style="background-color: white">Vítejte na stránkách 3D dílny</h1>
+      <br />
+      <p class="p1" style="background-color: whitesmoke; color: gray">
+        Tiskneme na zakázku a prodáváme již vytištěné součástky
+      </p>
+      <br />
+    </section>
+
+    <div class="container">
+      <section id="services" class="services">
+        <h2>naše nabídka</h2>
+        <ul>
+          <li><a href="products.html#print-on-demand">tisk na zakázku</a></li>
+          <li><a href="products.html#custom-parts">3D tisklé součástky</a></li>
+          <li><a href="products.html#design-services">3D design</a></li>
+        </ul>
+      </section>
+
+      <form action="" class="contact-left">
+        <div class="tittle">
+          <h2 style="color: white">Požadavek</h2>
+          <hr />
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="inline-sracka">
+          <div class="vlevo">
+            <br />
+            <input
+              type="text"
+              name="name"
+              placeholder="JMÉNO"
+              class="name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="EMAIL"
+              class="name1"
+              required
+            />
+            <br />
+            <br />
+            <br />
+            <textarea
+              name="message"
+              placeholder="váš požadvaek"
+              class="požadavek"
+              required
+            ></textarea>
+            <br />
+            <button type="submit">poslat</button>
+          </div>
+          <img src="email.webp" class="email-image" />
+        </div>
+      </form>
+    </div>
+
+    <section id="contact" class="contact">
+      <h2>kontaktuj nás</h2>
+      <p>Email: mrroslav@chaloupka.xyz</p>
+      <p>telefon: +420 720 021 291</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 3D dílna. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HFC8RRQY42"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-HFC8RRQY42");
+    </script>
+  </body>
+</html>

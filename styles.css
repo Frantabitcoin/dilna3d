@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 2% 0;
+    text-align: center;
+    position: relative;
+}
+.logo {
+    width:60px;
+    position: absolute;
+    top: 50%;
+    left: 45px;
+    transform: translateY(-50%);
+}
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+.nav-links {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    list-style: none;
+}
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.hero {
+    background-image: url('image.webp'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    text-align: center;
+    padding: 5rem 0;
+}
+.hero h1 {
+    font-size: 3rem;
+    color: #333;
+}
+.hero p {
+    font-size: 1.2rem;
+}
+.container {
+    padding: 2rem;
+}
+.about1 {
+    background-color: white;
+}
+.services, .contact {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+.tittle {
+    margin-left: 20px;
+}
+.name {
+    width: 300px;
+    text-align: center;
+    color: black;
+    display: inline-block;
+}
+.name1 {
+    width: 300px;
+    text-align: center;
+    color: black;
+    display: inline-block;
+}
+.požadavek {
+    width: 600px;
+}
+textarea {
+    width: 600px;
+    height: 200px;
+}
+li {
+    display: inline-block;
+    margin-inline: 100px;
+}
+button {
+    width: 100px;
+    margin-left: 250px;
+}
+a {
+    color: black;
+}
+.vlevo {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 250px;
+    background-color: gray;
+}
+.inline-sracka {
+    display: inline;
+}
+.inline-sracka img {
+    width: 300px;
+}
+h1 {
+    display: inline-block;
+}
+.p1 {
+    display: inline-block;
+}
+.service1{
+    color: white;
+    img{
+        width: 400px;
+    }
+}
+.nav-links{
+    margin-right: 150px;
+}
