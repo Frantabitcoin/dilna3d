@@ -2,12 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #333;
-}
-header {
+    background-color: grey;
+  }
+  
+  header {
     background-color: #333;
     color: white;
-    padding: 2% 0;
+    padding: 1px;
     text-align: center;
     position: relative;
 }
@@ -19,118 +20,157 @@ header {
     transform: translateY(-50%);
 }
 header h1 {
-    margin: 0;
+    margin: 20px;
     padding: 0;
 }
-.nav-links {
-    position: absolute;
-    top: 50%;
-    right: 40px;
-    transform: translateY(-50%);
-    list-style: none;
-}
-.nav-links li {
-    display: inline;
-    margin-left: 20px;
-}
-.nav-links a {
+  
+  button{
+    line-height: 100%;
+    width: 200px;
+    height: 50px;
+  
+  }
+  .nav-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  a{
+  display: block;
+    margin-left: 50px;
+
+
+  }
+  
+  .service1{
     color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-.nav-links a:hover {
-    text-decoration: underline;
-}
-.hero {
-    background-image: url('image.webp'); /* Replace with your background image URL */
-    background-size: cover;
-    background-position: center;
-    color: #333;
     text-align: center;
-    padding: 5rem 0;
-}
-.hero h1 {
-    font-size: 3rem;
-    color: #333;
-}
-.hero p {
-    font-size: 1.2rem;
 }
 .container {
     padding: 2rem;
-}
-.about1 {
-    background-color: white;
-}
-.services, .contact {
-    background-color: white;
+    img{
+        width: 300px
+      }
+    }
+
+  .nav-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+
+  
+  .hero {
+    background-image: url('image.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 800px 50px;
+    background-color: #555;
+    width: auto;
+    h1 {
+      display: inline-block;
+      width: 350px;
+      height: 50px;
+    }
+    h2 {
+      width: 320px;
+      height: 80px;
+      
+      display: inline-block;
+    }
+  }
+  
+  .container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about1 {
+    margin-bottom: 20px;
+    width: auto;
+    align-items: center;
+    img{ 
+  width: 400px;
+  align-items: center;
+
+    }
+  }
+  
+  .contact-left {
+    background-color: #333;
+    color: white;
+    padding: 20px;
     margin-top: 20px;
-    margin-left: 20px;
-    display: block;
+  }
+  
+  .contact-left .form-group {
+    display: flex;
+    flex-direction: column;
+   
 }
-footer {
+  .contact-left input, .contact-left textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact-left button {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-left button:hover {
+    background-color: #777;
+  }
+  
+  .contact{
+    margin-left: 50px;
+  }
+  .backlink{
+margin-left: 500px;
+  }
+
+  footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1rem 0;
-}
-.tittle {
-    margin-left: 20px;
-}
-.name {
-    width: 300px;
-    text-align: center;
-    color: black;
-    display: inline-block;
-}
-.name1 {
-    width: 300px;
-    text-align: center;
-    color: black;
-    display: inline-block;
-}
-.požadavek {
-    width: 600px;
-}
-textarea {
-    width: 600px;
-    height: 200px;
-}
-li {
-    display: inline-block;
-    margin-inline: 100px;
-}
-button {
-    width: 100px;
-    margin-left: 250px;
-}
-a {
-    color: black;
-}
-.vlevo {
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 250px;
-    background-color: gray;
-}
-.inline-sracka {
-    display: inline;
-}
-.inline-sracka img {
-    width: 300px;
-}
-h1 {
-    display: inline-block;
-}
-.p1 {
-    display: inline-block;
-}
-.service1{
-    color: white;
-    img{
-        width: 400px;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+
+  
+  @media (max-width: 600px) {
+    .nav-links li {
+      display: block;
+      margin: 10px 0;
     }
-}
-.nav-links{
-    margin-right: 150px;
-}
+  
+    .contact-left {
+      padding: 10px;
+    }
+  
+    .contact-left .form-group {
+      flex-direction: column;
+    }
+  
+    .hero {
+      padding: 20px;
+    }
+  
+    .service1 img, .about1 img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
