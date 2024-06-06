@@ -42,15 +42,24 @@ header h1 {
   }
   
   .services{
-    color: white;
+    color:black;
     text-align: center;
+    margin-right: 50px;
+    h2{
+      margin-left: 80Px;
+    }
+
 }
+
+
 .container {
+  background-color: white;
     padding: 2rem;
     img{
         width: 300px
       }
     }
+
 
   .nav-links li {
     display: inline-block;
@@ -60,6 +69,7 @@ header h1 {
   .nav-links a {
     color: white;
     text-decoration: none;
+  
   }
 
   
@@ -68,13 +78,17 @@ header h1 {
     background-size: cover;
     background-position: center;
     text-align: center;
-    padding: 800px 50px;
-    background-color: #555;
+    padding: 200px 50px;
+    background-color: white;
     width: auto;
+   
     h1 {
       display: inline-block;
-      width: 350px;
-      height: 50px;
+      text-align: center;
+
+      margin-top: 20px;
+      width: 400px;
+      height: 80px;
     }
     h2 {
       width: 320px;
@@ -85,7 +99,7 @@ header h1 {
   }
   
   .container {
-    padding: 20px;
+    
     text-align: center;
   }
   
@@ -118,7 +132,13 @@ header h1 {
     border: none;
     border-radius: 5px;
   }
-  
+  .mrdka {
+    text-align: center;
+    button{
+      background-color: black;
+      color: white;
+     }
+  }
   .contact-left button {
     background-color: #555;
     color: white;
@@ -134,7 +154,11 @@ header h1 {
   
   .contact{
     margin-left: 50px;
+   a{
+      margin-left: 0px;
+      color: black;
   }
+}
   .backlink{
 margin-left: 500px;
   }
